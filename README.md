@@ -2,9 +2,9 @@
 
 <h4 align="center">我自用的Clash配置文件 </h4>
 
-<p align="center">
+<!-- <p align="center">
 <img src="https://raw.githubusercontent.com/Rabbit-Spec/Clash/Master/img/1.PNG" width="700"></img>
-</p>
+</p> -->
 
 ## [此配置需要Mihomo Kernel（Meta内核），不支持其他Clash核心，请自行阅读Mihomo文档理解使用。](https://github.com/MetaCubeX/mihomo/tree/Alpha) <br>
 
@@ -36,5 +36,5 @@
 ### 特别感谢
 - [@可莉🅥](https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Clash/Config)
 
-## 我用的机场
+<!-- ## 我用的机场 -->
 
