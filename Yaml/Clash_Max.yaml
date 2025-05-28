@@ -1,10 +1,10 @@
 # 深巷有喵的「Clash_Max」配置
-# 日期：2024-10-04
-# 版本：2.1.6
+# 日期：2025-5-28
+# 版本：2.1.7
 # 配置作者：https://github.com/Rabbit-Spec
 # 适用版本：所有使用 Mihomo 内核的程序
 
-port: 7890
+port: 7897
 socks-port: 7891
 mixed-port: 7892
 redir-port: 7893
@@ -113,7 +113,7 @@ RuleSet: &RuleSet {type: http, behavior: classical, interval: 86400, format: yam
 proxy-groups: 
   - {name: Proxy, type: select, proxies: [🇭🇰 香港节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点, 🇬🇧 英国节点, 🇫🇷 法国节点, 🇩🇪 德国节点], icon: 'https://raw.githubusercontent.com/pompurin404/mihomo-party/master/resources/icon.png'}
   - {name: Apple, type: select, proxies: [DIRECT, Proxy, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点, 🇬🇧 英国节点, 🇫🇷 法国节点, 🇩🇪 德国节点], icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_1.png'}
-  - {name: OpenAI, type: select, include-all: true, filter: *FilterAll, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png'}
+  - {name: OpenAI, type: select, include-all: true, filter: *FilterUS, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png'}
   - {name: Telegram, type: select, proxies: [Proxy, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点, 🇬🇧 英国节点, 🇫🇷 法国节点, 🇩🇪 德国节点], icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png'}
   - {name: Netflix, type: select, proxies: [Proxy, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点, 🇬🇧 英国节点, 🇫🇷 法国节点, 🇩🇪 德国节点], icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png'}
   - {name: Disney+, type: select, proxies: [Proxy, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点, 🇬🇧 英国节点, 🇫🇷 法国节点, 🇩🇪 德国节点], icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney.png'}
