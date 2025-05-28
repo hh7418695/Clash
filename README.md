@@ -18,7 +18,7 @@
 ## 如何使用
 ### 1. 配置文件链接
 > **迷你版 :** https://raw.githubusercontent.com/Rabbit-Spec/Clash/Master/Yaml/Clash_Mini.yaml<br>
-> **完整版 :** https://raw.githubusercontent.com/Rabbit-Spec/Clash/Master/Yaml/Clash_Max.yaml<br>
+> **完整版 :** https://raw.githubusercontent.com/hh7418695/Clash/refs/heads/Master/Yaml/Clash_Max.yaml<br>
 ### 2. 使用方式
 **添加机场订阅链接请搜索配置文件内的proxy-providers并按照说明进行设置。**<br>
 
@@ -37,6 +37,4 @@
 - [@可莉🅥](https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Clash/Config)
 
 ## 我用的机场
-**我用着好用不代表你用着也好用，如果想要入手的话，建议先买一个月体验一下。任何机场都有跑路的可能。**<br>
-[「Nexitally」佩奇家主站，一家全线中转线路的高端机场。](https://naixii.com/signupbyemail.aspx?MemberCode=0b532ff85dda43e595fb1ae17843ae6d20211110231626) <br>
-[「TAG」目前共有90+个国家地区节点，覆盖范围目前是机场里最广的。](https://tagss.pro#/register?invite=hlnIqYOx) <br>
+
